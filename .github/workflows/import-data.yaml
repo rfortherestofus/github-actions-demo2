@@ -3,7 +3,7 @@ on:
     branches: main
 
 jobs:
-  build-deploy:
+  import-data:
     runs-on: ubuntu-latest
     steps:
       - name: Set up R
